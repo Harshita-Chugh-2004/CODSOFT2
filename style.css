@@ -1,0 +1,111 @@
+body{
+    background-color:black;
+    color:white;
+
+}
+
+.navbar{
+    display:flex;
+    align-items:center;
+    margin-left:100px;
+    margin-right:-100px;
+}
+
+.nav-links{
+    display: flex;
+}
+
+.navbar span{
+    display:flex;
+    align-items:center;
+    color: #fea116;
+    font-size:30px;
+}
+
+.navbar i{
+    margin-right:15px;
+    color: #fea116;
+    font-size:30px;
+}
+.nav-links ul{
+    align-items:center;
+    color:white;
+    display:flex;
+    padding:0;
+    list-style:none;
+    margin-left:600px;
+    gap:20px;
+}
+.nav-links a{
+    text-decoration:none;
+    color:white;
+    align-items:center;
+    justify-content:space-evenly;
+    text-align: center;
+}
+
+.nav-links a:hover{
+    color:#fea116;
+}
+
+.nav-links li:last-child a:hover {
+    background-color: #fea116; 
+    color: white; 
+    cursor: default;
+    text-decoration: none; 
+}
+
+.book-table{
+    background-color:#fea116;
+    padding:8px;
+    margin-left:9px;
+    color:white;
+    text-decoration:none;
+}
+
+@keyframes rotate{
+    from{
+        transform:rotate(0deg);
+    }
+    to{
+        transform:rotate(360deg);
+    }
+}
+
+.hero-image{
+    height:550px;
+    float:right;
+    margin-top:-40px;
+    margin-right:60px;
+    margin-bottom: 200px;
+    margin-left:100px;
+    display:flex;
+    animation:rotate 40s infinite linear;    
+
+}
+
+.picture h1{
+    font-size:75px;
+    margin-left: -200px;
+    margin-top:50px;
+    
+}
+
+
+.enjoy-hover:hover {
+    color:#fea116;
+}
+
+.book-table1{
+    margin-top:-100px;
+    margin-left:350px;
+    background-color: #fea116;
+    margin-top: 60px;
+    padding:10px;
+    font-size: 40px;
+}
+
+.book-table1:hover{
+    color:white;
+    background-color: #fea116;
+}
